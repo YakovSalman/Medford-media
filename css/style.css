@@ -937,6 +937,7 @@ body.active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 
 .form__footer-input {
@@ -1263,6 +1264,11 @@ body.active {
 
 .footer__row:first-child {
   margin-top: 0;
+}
+
+.footer__logo {
+  max-width: 100%;
+  display: block;
 }
 
 .footer__subtitle {
@@ -2178,6 +2184,7 @@ button.swiper-pagination-bullet {
 .swiper {
   width: 100%;
   max-width: 1313px;
+  text-align: center;
   position: relative;
   border-top: 20px dashed #008BF5;
   border-bottom: 20px dashed #008BF5;
@@ -2190,9 +2197,10 @@ button.swiper-pagination-bullet {
   width: 100%;
   display: block;
   position: relative;
-  width: 400px;
+  max-width: 400px;
   height: 318px;
   border-radius: 20px;
+  margin: 0 auto;
 }
 
 .swiper-info {
@@ -2742,6 +2750,10 @@ button.swiper-pagination-bullet {
     grid-column-gap: 50px;
   }
 
+  .swiper-img {
+    height: 250px;
+  }
+
   .swiper-icon {
     width: 80px;
     height: 80px;
@@ -2810,7 +2822,6 @@ button.swiper-pagination-bullet {
 
   .form__footer-input {
     padding: 13px 20px;
-    margin: 0 0 20px 0;
   }
 
   .team__wrap {
@@ -2906,7 +2917,6 @@ button.swiper-pagination-bullet {
         -ms-flex-direction: row;
             flex-direction: row;
     margin-bottom: 20;
-    margin-right: 0;
   }
 
   .clients__inner {
@@ -3015,6 +3025,23 @@ button.swiper-pagination-bullet {
     margin-top: 50px;
   }
 
+  .form__footer {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .form__footer-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .form__footer-input {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
   .form-modal-input {
     font-size: 15px;
     padding: 5px 15px 15px;
@@ -3041,6 +3068,10 @@ button.swiper-pagination-bullet {
 
   .modal__title {
     font-size: 15px;
+  }
+
+  .footer__info::after {
+    margin-top: 50px;
   }
 
   .swiper-icon {
