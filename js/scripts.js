@@ -1,7 +1,5 @@
 // Custom Scripts
-// Custom scripts
 
-// const { active } = require("browser-sync");
 
 const menu = document.querySelector('.menu');
 const list = document.querySelector('.nav__list');
@@ -307,7 +305,7 @@ window.addEventListener('scroll', () => {
 
 // -----------scroll up------------------
 
-const logo = document.querySelectorAll('.logo');
+const logo = document.querySelectorAll('#logo');
 
 logo.forEach(item => {
   item.addEventListener('click', (e) => {
